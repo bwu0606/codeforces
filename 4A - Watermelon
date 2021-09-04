@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+void solve(int n){
+    if(n%2 != 0 || n == 2){
+        cout << "NO" << endl;
+    }
+    else{
+        cout << "YES" << endl;
+    }
+}
+
+int main(){
+    int num;
+    cin >> num;
+    solve(num);
+    return 0;
+}
